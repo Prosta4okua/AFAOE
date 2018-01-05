@@ -4,7 +4,7 @@
 
 print("Initializing 'shapedrecipes'...");
 
-//recipes.addShaped(<>, [[<>, <>, <>], [<>, <>, <>], [<>, <>, <>]]);
+
 
 
 //Sandwiches
