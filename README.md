@@ -1,6 +1,4 @@
 # AFAOE
 Amazing FoodStuffs and Other Essentials
 
-I will use this as an update file for now. 
-First branches to be created. 
-Texture files mostly complete. 
+Currently 63 base ingredients that can be combined to make 1,953 different foods, including sandwiches, tacos, pizzas and more to come. New entities have been added to add meats and other animal items, other entities include two gods that oppose each other which will give you special items. 
