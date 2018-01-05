@@ -4,7 +4,7 @@
 
 print("Initializing 'furnacerecipes'...");
 
-//furnace.addRecipe(<out>, <in>);
+
 
 furnace.addRecipe(<AFAOE:hardened_iron:1>, <minecraft:iron_ingot>);
 furnace.addRecipe(<AFAOE:heated_pan:1>, <AFAOE:pan>);
