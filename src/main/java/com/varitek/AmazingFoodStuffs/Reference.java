@@ -9,4 +9,33 @@ public class Reference {
 	
 	public static final String CLIENT_PROXY_CLASS = "com.varitek.AmazingFoodStuffs.proxy.ClientProxy";
 	public static final String SERVER_PROXY_CLASS = "com.varitek.AmazingFoodStuffs.proxy.ServerProxy";
+	
+	
 }
+
+
+/*public static enum IngredItems {
+
+CHEDDAR("cheddar", "cheddar");
+
+private String unlocalizedName;
+private String registryName;
+
+IngredItems(String unlocalizedName, String registryName)
+{
+	this.unlocalizedName = unlocalizedName;
+	this.registryName = registryName;
+	
+}
+
+public String getUnlocalizedName() 
+{
+	return unlocalizedName;
+}
+
+
+public String getRegistryName() 
+{
+	return registryName;
+}
+}*/

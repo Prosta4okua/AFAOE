@@ -23,12 +23,12 @@ public class AmazingFoodStuffs {
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		
-		ModItems.init();
-		ModItems.register();
-		
-		proxy.registerRenders();
 		
 		System.out.println("Pre Initialization");
+		
+		ModItems.preinit();
+		ModItems.register();
+		
 		
 	}
 
@@ -36,6 +36,7 @@ public class AmazingFoodStuffs {
 	public void Init(FMLInitializationEvent event) {
 		
 		System.out.println("Initialization");
+		proxy.init(event);
 		
 	}
 	

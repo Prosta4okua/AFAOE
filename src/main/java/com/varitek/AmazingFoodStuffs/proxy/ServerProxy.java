@@ -1,9 +1,14 @@
 package com.varitek.AmazingFoodStuffs.proxy;
 
-public class ServerProxy implements CommonProxy {
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+
+public class ServerProxy extends CommonProxy {
 
 	@Override
-	public void registerRenders() {
+	public void preInit(FMLPreInitializationEvent event) {
+		
+		
+		super.preInit(event);
 		
 		
 	}

@@ -1,15 +1,15 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
+  "modid": "afaoe",
+  "name": "Amazing FoodStuffs and Other Essentials",
+  "description": "Adds hundreds of foods, like sandwiches, pizzas, tacos, coups etc. that will all have full customization. Each type of food and subsequent ingredients will have differing effects on the players and environment. It also adds tools and blocks that will be used to make the food items, and entities that can give the player special items and ingredients.",
+  "version": "${1.10.6.0}",
+  "mcversion": "${1.10.2}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
-  "logoFile": "",
+  "authorList": ["Varitek"],
+  "credits": "Pams Harvestcraft for inspiration.",
+  "logoFile": "\afaoe.png",
   "screenshots": [],
   "dependencies": []
 }
