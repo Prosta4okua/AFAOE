@@ -1,0 +1,10 @@
+{
+
+	"parent": "item/generated", 
+	"textures": {
+	
+		"Layer0": "afaoe:textures/items/cheddar"
+		
+	}
+
+}
