@@ -22,8 +22,3 @@ public class ItemCheddar extends Item {
 }
 
 
-/*public ItemCheddar() {
-
-setUnlocalizedName(Reference.IngredItems.CHEDDAR.getUnlocalizedName());
-setRegistryName(Reference.IngredItems.CHEDDAR.getRegistryName());
-}*/
