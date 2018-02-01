@@ -1,0 +1,231 @@
+#
+
+
+#Entities
+
+###############################
+
+#Mobs
+entity.AFAOE.cibus.name=Cibus
+entity.AFAOE.fame.name=Fame
+entity.AFAOE.jager.name=The Jager
+entity.AFAOE.minion.name=Fame Minion
+entity.AFAOE.robber.name=Robber
+entity.AFAOE.lurker.name=Lurker
+entity.AFAOE.coelum_portal.name=Coelum Portal
+entity.AFAOE.goose.name=Goose
+entity.AFAOE.quail.name=Quail
+entity.AFAOE.turkey.name=Turkey
+
+
+
+#Items
+
+###############################
+
+#
+#Reference
+item.recipe_book.name=Recipe Book
+item.book_of_gods.name=Book of Gods
+item.book_of_mobs.name=Book of Mobs
+
+#
+#Meats
+item.tofu.name=Tofu
+item.tenderized_beef.name=Tenderized Beef
+item.tenderized_chicken.name=Tenderized Chicken
+item.tenderized_fish.name=Tenderized Fish
+item.meat_ball.name=Meat Ball
+item.pastrami.name=Pastrami
+item.ground_beef.name=Ground Beef
+item.rotisserie_chicken.name=Rotisserie Chicken
+item.quail_egg.name=Quail Egg
+item.quail_tenders.name=Quail Tenders
+item.goose_egg.name=Goose Egg
+item.goose_tenders.name=Goose Tenders
+item.turkey_legs.name=Turkey Tenders
+item.turkey_breast.name=Turkey Breast
+
+#
+#Spices
+item.spices.garlic.name=Garlic
+item.spices.paprika.name=Paprika
+item.spices.cinnamon.name=Cinnamon
+item.spices.basil.name=Basil
+item.spices.oregano.name=Oregano
+item.spices.pineapple_enzyme.name=Pineapple Enzyme
+
+#
+#Condiments
+item.yellow_mustard.name=Yellow Mustard
+item.brown_mustard.name=Brown Mustard
+item.mayonnaise.name=Mayonnaise
+item.sour_cream.name=Sour Cream
+item.horseradish.name=Horseradish
+item.marinara_sauce.name=Marinara Sauce
+item.soy_sauce.name=Soy Sauce
+item.wasabi.name=Wasabi
+item.relish.name=Relish
+item.ketchup.name=Ketchup
+item.barbecue.name=Barbecue
+
+#
+#Raw Ingredients
+item.cheddar.name=Cheddar
+item.provolone.name=Provolone
+item.muenster.name=Muenster
+item.curd.name=Curd
+item.empty_sack.name=Empty Sack
+item.milk_sack.name=Milk Sack
+item.cheese_sugar.name=Cheese Sugar
+item.wheat_bread.name=Wheat Bread
+item.white_bread.name=White Bread
+item.wheat_bun.name=Wheat Bun
+item.white_bun.name=White Bun
+item.white_roll.name=White Roll
+item.wheat_roll.name=Wheat Roll
+item.flour_tortilla.name=Flour Tortilla
+item.corn_tortilla.name=Corn Tortilla
+item.crunchy_taco_shell.name=Crunchy Taco Shell
+item.ciabatta_roll.name=Ciabatta Roll
+item.lettuce.name=Lettuce
+item.onion.name=Onion
+item.tomato.name=Tomato
+item.mushroom.name=Mushroom
+item.anchovies.name=Anchovies
+item.green_pepper.name=Green Pepper
+item.diced_tomato.name=Diced Tomato
+item.sliced_onion.name=Sliced Onion
+item.caramelized_onion.name=Caramelized Onion
+item.sliced_tomato.name=Sliced Tomato
+item.shredded_lettuce.name=Shredded Lettuce
+item.brown_rice.name=Brown Rice
+item.white_rice.name=White Rice
+item.sticky_rice.name=Sticky Rice
+item.mexican_rice.name=Mexican Rice
+
+#
+#Materials
+item.hardened_iron.name=Hardened Iron Ingot
+item.gem_of_hunger.name=Gem of Hunger
+item.gem_of_growth.name=Gem of Growth
+item.gem_of_warding.name=Gem of Warding
+item.gem_shard.name=Gem Shard
+item.furnace_brick.name=Furnace Brick
+item.binder.name=Binder
+item.golden_goose_egg.name=Golden Goose Egg
+
+#
+#Tools
+item.pan.name=Pan
+item.heated_pan.name=Heated Pan
+item.pot.name=Pot
+item.meat_baller.name=Meat Baller
+item.meat_knife.name=Meat Knife
+item.tenderizer.name=Tenderizer
+item.vegetable_knife.name=Vegetable Knife
+
+#
+#Wands
+item.wands.wand_of_hunger.name=Wand of Hunger
+item.wands.wand_of_growth.name=Wand of Growth
+item.wands.wand_of_steroids.name=Wand of Steroids
+item.wands.wand_of_warding.name=Wand of Warding
+
+#
+#Sandwiches
+item.sandwich.chicken_sandwich_white_bread.name=Chicken Sandwich on White
+item.sandwich.beef_cheddar_sandwich_white_bread.name=Beef & Cheddar Sandwich on White
+item.sandwich.beef_cheddar_lettuce_sandwich_white_bread.name=Beef, Cheddar & Lettuce Sandwich on White
+item.sandwich.beef_provolone_sandwich_white_bread.name=Beef & Provolone Sandwich on White
+item.sandwich.beef_provolone_lettuce_sandwich_white_bread.name=Beef, Provolone & Lettuce Sandwich on White
+item.sandwich.beef_muenster_sandwich_white_bread.name=Beef & Muenster Sandwich on White
+item.sandwich.beef_muenster_lettuce_sandwich_white_bread.name=Beef, Muenster & Lettuce Sandwich on White
+item.sandwich.beef_cheddar_onion_sandwich_white_bread.name=Beef, Cheddar & Onion Sandwich on White
+item.sandwich.beef_provolone_onion_sandwich_white_bread.name=Beef, Provolone & Onion Sandwich on White
+item.sandwich.beef_muenster_onion_sandwich_white_bread.name=Beef, Muenster & Onion Sandwich on White
+//so many more
+
+#
+#Tacos
+item.tacos.chicken_taco.name=Chicken Taco
+item.tacos.steak_taco.name=Steak Taco
+item.tacos.ground_beef_taco.name=Ground Beef Taco
+item.tacos.tofu_taco.name=Tofu Taco
+item.tacos.fish_taco.name=Fish Taco
+item.tacos.chicken_diced_tomato_taco.name=Chicken & Tomato Taco
+item.tacos.steak_diced_tomato_taco.name=Steak & Tomato Taco
+item.tacos.ground_beef_diced_tomato_taco.name=Ground Beef & Tomato Taco
+item.tacos.tofu_diced_tomato_taco.name=Tofu & Tomato Taco
+item.tacos.fish_diced_tomato_taco.name=Fish & Tomato Taco
+item.tacos.chicken_sour_cream_taco.name=Chicken & Sour Cream Taco
+item.tacos.steak_sour_cream_taco.name=Steak & Sour Cream Taco
+item.tacos.ground_beef_sour_cream_taco.name=Ground Beef & Sour Cream Taco
+item.tacos.tofu_sour_cream_taco.name=Tofu & Sour Cream Taco
+item.tacos.fish_sour_cream_taco.name=Fish & Sour Cream Taco
+item.tacos.chicken_diced_tomato_sour_cream_taco.name=Chicken, Tomato & Sour Cream Taco
+item.tacos.steak_diced_tomato_sour_cream_taco.name=Steak, Tomato & Sour Cream Taco
+item.tacos.ground_beef_diced_tomato_sour_cream_taco.name=Ground Beef, Tomato & Sour Cream Taco
+item.tacos.tofu_diced_tomato_cour_cream_tac0.name=Tofu, Tomato & Sour Cream Taco
+
+
+#
+#Pizzas
+item.pizzas.cheese_pizza.name=Cheese Pizza
+item.pizzas.pepperoni_pizza.name=Pepperoni Pizza
+item.pizzas.onion_pizza.name=Onion Pizza
+item.pizzas.green_pepper_pizza.name=Green Pepper Pizza
+item.pizzas.onion_pepperoni_pizza.name=Onion & Pepperoni Pizza
+item.pizzas.green_pepper_pepperoni_pizza.name=Green Pepper & Pepperoni Pizza
+item.pizzas.green_pepper_onion_pizza.name=Green Pepper & Onion Pizza
+item.pizzas.green_pepper_onion_pepperoni_pizza.name=Green Pepper, Onion & Pepperoni Pizza
+
+
+#Blocks
+
+##############################
+
+#Machines
+tile.wood_furnace.name=Wood Furnace
+tile.grill.name=Grill
+tile.multiblocks.brick_furnace.name=Brick Furnace
+
+#
+#Tables
+tile.meat_table.name=Meat Table
+tile.vege_table.name=Vege-Table
+
+#
+#Crops
+tile.crops.onion_plant.name=Onion Plant
+tile.crops.lettuce_plant.name=Lettuce Plant
+tile.crops.tomato_vine.name=Tomato Vine
+tile.crops.sugar_grass.name=Sugar Grass
+
+#
+#Storage
+tile.crates.small_seed_box.name=Small Seed Box
+tile.crates.seed_box.name=Seed Box
+tile.crates.large_seed_box.name=Large Seed Box
+tile.crates.xtra_large_seed_box.name=Xtra Large Seed Box
+tile.crates.ultra_large_seed_box.name=Ultra Large Seed Box
+tile.crates.creative_seed_box.name=Creative Seed Box
+tile.crates.small_tool_rack.name=Small Tool Rack
+tile.crates.large_tool_rack.name=Large Tool Rack
+tile.crates.stacked_tool_rack.name=Stacked Tool Rack
+
+
+#Omnipotent Foods/Spices
+
+####################################
+
+#
+#Spices
+item.o_spices.omnipotent_garlic.name=Omnipotent Garlic
+item.o_spices.omnipotent_ginger.name=Omnipotent Ginger
+item.o_spices.omnipotent_nutmeg.name=Omnipotent Nutmeg
+
+#
+#Foods
+item.o_foods.omnipotent_beef.name=Omnipotent Beef
+item.o_foods.omnipotent_chicken.name=Omnipotent Chicken
