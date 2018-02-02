@@ -1,5 +1,7 @@
 #
 
+itemGroup.afaoe=AFAOE
+
 
 #Entities
 
@@ -186,6 +188,7 @@ item.pizzas.green_pepper_onion_pepperoni_pizza.name=Green Pepper, Onion & Pepper
 ##############################
 
 #Machines
+tile.block_cheddar.name=Cheddar Block
 tile.wood_furnace.name=Wood Furnace
 tile.grill.name=Grill
 tile.multiblocks.brick_furnace.name=Brick Furnace

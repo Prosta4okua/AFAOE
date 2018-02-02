@@ -12,5 +12,6 @@ public class ItemInit {
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	
 	public static final Item CHEDDAR = new ItemBase("cheddar");
+	public static final Item HARDENED_IRON = new ItemBase("hardened_iron");
 
 }

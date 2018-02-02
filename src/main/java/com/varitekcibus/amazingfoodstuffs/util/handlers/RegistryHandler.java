@@ -1,7 +1,10 @@
 package com.varitekcibus.amazingfoodstuffs.util.handlers;
 
+import com.varitekcibus.amazingfoodstuffs.init.BlockInit;
 import com.varitekcibus.amazingfoodstuffs.init.ItemInit;
 import com.varitekcibus.amazingfoodstuffs.util.IHasModel;
+
+import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
@@ -24,6 +27,17 @@ public class RegistryHandler
 	
 	
 	@SubscribeEvent
+	public static void onBlockRegister(RegistryEvent.Register<Block> event)
+	
+	{
+		
+		event.getRegistry().registerAll(BlockInit.BLOCKS.toArray(new Block[0]));
+		
+	}
+	
+	
+	
+	@SubscribeEvent
 	public static void onModelRegister(ModelRegistryEvent event)
 	
 	{
@@ -37,6 +51,20 @@ public class RegistryHandler
 			{
 				
 				((IHasModel)item).registerModels();
+				
+			}
+			
+		}
+		
+		for(Block block : BlockInit.BLOCKS)
+			
+		{
+			
+			if(block instanceof IHasModel)
+				
+			{
+				
+				((IHasModel)block).registerModels();
 				
 			}
 			

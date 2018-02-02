@@ -2,6 +2,9 @@ package com.varitekcibus.amazingfoodstuffs;
 
 import com.varitekcibus.amazingfoodstuffs.proxy.CommonProxy;
 import com.varitekcibus.amazingfoodstuffs.Reference;
+import com.varitekcibus.amazingfoodstuffs.creativetab.CreativeTab;
+
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -15,6 +18,9 @@ public class AmazingFoodStuffs {
 
 	@Instance
 	public static AmazingFoodStuffs instance;
+	
+	
+	public static final CreativeTabs afaoe = new CreativeTab("afaoe");
 	
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
 	public static CommonProxy proxy;

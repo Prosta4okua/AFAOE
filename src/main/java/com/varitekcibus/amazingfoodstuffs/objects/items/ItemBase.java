@@ -17,7 +17,7 @@ public class ItemBase extends Item implements IHasModel
 		
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.FOOD);
+		setCreativeTab(AmazingFoodStuffs.afaoe);
 		
 		ItemInit.ITEMS.add(this);
 		
