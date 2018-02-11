@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "CCC",
+        "CCC",
+        "CCC"
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+        "item": "afaoe:cheddar"
+        }
+    
+    },
+    
+    "result":
+    
+    {
+        "item": "afaoe:block_cheddar",
+        "count": 1
+    }
+}

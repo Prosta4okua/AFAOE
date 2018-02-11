@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " A ",
+        " C ",
+        " E "
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+        "item": "afaoe:white_bun"
+        },
+        
+       
+        
+        "C":
+        {
+        "item": "afaoe:mozzarella"
+        },
+        
+        "E":
+        {
+        "item": "afaoe:tenderized_beef_cooked"
+        }
+        
+    
+    },
+    
+    "result":
+    
+    {
+        "item": "afaoe:beef_mozzarella_wi",
+        "count": 1
+    }
+}

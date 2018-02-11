@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " A ",
+        "   ",
+        " E "
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+        "item": "afaoe:white_roll"
+        },
+
+        "E":
+        {
+        "item": "afaoe:sliced_chicken"
+        }
+        
+    
+    },
+    
+    "result":
+    
+    {
+        "item": "afaoe:chicken_roll_wi",
+        "count": 1
+    }
+}

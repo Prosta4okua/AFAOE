@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "CB"
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+        "item": "minecraft:beef"
+        },
+        
+        "B":
+        {
+        "item": "afaoe:salt"
+        }
+    
+    },
+    
+    "result":
+    
+    {
+        "item": "afaoe:pastrami",
+        "count": 1
+    }
+}

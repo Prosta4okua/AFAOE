@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " A ",
+        "C D",
+        " E "
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+        "item": "afaoe:white_bun"
+        },
+        
+       
+        
+        "C":
+        {
+        "item": "afaoe:provalone"
+        },
+        
+        "D":
+        {
+        "item": "afaoe:sliced_tomato"
+        },
+        
+        "E":
+        {
+        "item": "afaoe:tenderized_chicken_cooked"
+        }
+        
+    
+    },
+    
+    "result":
+    
+    {
+        "item": "afaoe:chicken_provalone_tomato_wi",
+        "count": 1
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "CB"
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+        "item": "afaoe:vegetable_knife"
+        },
+        
+        "B":
+        {
+        "item": "afaoe:onion"
+        }
+    
+    },
+    
+    "result":
+    
+    {
+        "item": "afaoe:sliced_onion",
+        "count": 6
+    }
+}

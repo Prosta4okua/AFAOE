@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "CB"
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+        "item": "afaoe:meat_knife"
+        },
+        
+        "B":
+        {
+        "item": "afaoe:tenderized_chicken_cooked"
+        }
+    
+    },
+    
+    "result":
+    
+    {
+        "item": "afaoe:sliced_chicken",
+        "count": 2
+    }
+}

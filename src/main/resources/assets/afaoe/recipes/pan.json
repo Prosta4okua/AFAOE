@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "CC ",
+        "CC ",
+        "  C"
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+        "item": "afaoe:hardened_iron"
+        }
+    
+    },
+    
+    "result":
+    
+    {
+        "item": "afaoe:pan",
+        "count": 1
+    }
+}

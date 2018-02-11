@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "CB"
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+        "item": "afaoe:meat_knife"
+        },
+        
+        "B":
+        {
+        "item": "afaoe:pepperoni"
+        }
+    
+    },
+    
+    "result":
+    
+    {
+        "item": "afaoe:sliced_pepperoni",
+        "count": 4
+    }
+}

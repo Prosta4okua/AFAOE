@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " A ",
+        "C D",
+        " E "
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+        "item": "afaoe:wheat_bun"
+        },
+        
+       
+        
+        "C":
+        {
+        "item": "afaoe:muenster"
+        },
+        
+        "D":
+        {
+        "item": "afaoe:lettuce"
+        },
+        
+        "E":
+        {
+        "item": "afaoe:tenderized_beef_cooked"
+        }
+        
+    
+    },
+    
+    "result":
+    
+    {
+        "item": "afaoe:beef_muenster_lettuce_wh",
+        "count": 1
+    }
+}

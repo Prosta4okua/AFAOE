@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "CCB",
+        "CC "
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+        "item": "afaoe:hardened_iron"
+        },
+        
+        "B":
+        {
+        "item": "minecraft:stick"
+        }
+    
+    },
+    
+    "result":
+    
+    {
+        "item": "afaoe:meat_knife",
+        "count": 1
+    }
+}

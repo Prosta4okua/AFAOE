@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "CB"
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+        "item": "afaoe:tenderized_beef_raw"
+        },
+        
+        "B":
+        {
+        "item": "minecraft:porkchop"
+        }
+    
+    },
+    
+    "result":
+    
+    {
+        "item": "afaoe:pepperoni",
+        "count": 2
+    }
+}

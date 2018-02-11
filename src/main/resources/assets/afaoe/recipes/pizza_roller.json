@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "CC ",
+        "CCC",
+        " CC"
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+        "item": "minecraft:stick"
+        }
+    
+    },
+    
+    "result":
+    
+    {
+        "item": "afaoe:pizza_roller",
+        "count": 1
+    }
+}

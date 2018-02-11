@@ -1,0 +1,47 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " A ",
+        "BCD",
+        " E "
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+        "item": "afaoe:white_bun"
+        },
+        
+        "B":
+        {
+        "item": "afaoe:sliced_tomato"
+        },
+        
+        "C":
+        {
+        "item": "afaoe:muenster"
+        },
+        
+        "D":
+        {
+        "item": "afaoe:lettuce"
+        },
+        
+        "E":
+        {
+        "item": "afaoe:tenderized_beef_cooked"
+        }
+        
+    
+    },
+    
+    "result":
+    
+    {
+        "item": "afaoe:beef_muenster_lettuce_tomato_wi",
+        "count": 1
+    }
+}

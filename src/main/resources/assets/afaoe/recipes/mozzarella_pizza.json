@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " A ",
+        " C ",
+        " E "
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+        "item": "afaoe:mozzarella"
+        },
+        
+        "C":
+        {
+        "item": "afaoe:tomato_sauce"
+        },
+        
+        "E":
+        {
+        "item": "afaoe:empty_crust"
+        }
+        
+    
+    },
+    
+    "result":
+    
+    {
+        "item": "afaoe:mozzarella_pepperoni_pizza",
+        "count": 1
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "CB"
+    ],
+    
+    "key":
+    {
+        "C":
+        {
+        "item": "afaoe:meat_baller"
+        },
+        
+        "B":
+        {
+        "item": "afaoe:tenderized_beef_cooked"
+        }
+    
+    },
+    
+    "result":
+    
+    {
+        "item": "afaoe:meat_balls",
+        "count": 2
+    }
+}

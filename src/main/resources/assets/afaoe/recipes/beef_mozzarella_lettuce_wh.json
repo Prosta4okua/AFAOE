@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " A ",
+        " CD",
+        " E "
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+        "item": "afaoe:wheat_bun"
+        },
+        
+       
+        
+        "C":
+        {
+        "item": "afaoe:mozzarella"
+        },
+        
+        "D":
+        {
+        "item": "afaoe:lettuce"
+        },
+        
+        "E":
+        {
+        "item": "afaoe:tenderized_beef_cooked"
+        }
+        
+    
+    },
+    
+    "result":
+    
+    {
+        "item": "afaoe:beef_mozzarella_lettuce_wh",
+        "count": 1
+    }
+}

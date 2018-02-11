@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " A ",
+        "C B",
+        " E "
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+        "item": "afaoe:provalone"
+        },
+        
+        "B":
+        {
+        "item": "afaoe:sliced_pepperoni"
+        },
+        
+        "C":
+        {
+        "item": "afaoe:tomato_sauce"
+        },
+        
+        "E":
+        {
+        "item": "afaoe:empty_crust"
+        }
+        
+    
+    },
+    
+    "result":
+    
+    {
+        "item": "afaoe:provalone_pepperoni_pizza",
+        "count": 1
+    }
+}
