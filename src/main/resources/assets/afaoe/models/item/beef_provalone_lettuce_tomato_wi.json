@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "afaoe:items/beef_provalone_lettuce_tomato_wi"
+    }
+}
