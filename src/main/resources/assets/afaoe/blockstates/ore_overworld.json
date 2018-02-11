@@ -1,0 +1,7 @@
+{
+	"variants":
+	{
+	    "variant=salt": { "model": "afaoe:ore_overworld_salt"},
+	    "variant=baking_soda": { "model": "afaoe:ore_overworld_baking_soda"}
+	}
+}
