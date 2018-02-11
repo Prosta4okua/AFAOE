@@ -1,8 +1,10 @@
 package com.varitekcibus.amazingfoodstuffs;
 
 import com.varitekcibus.amazingfoodstuffs.proxy.CommonProxy;
+import com.varitekcibus.amazingfoodstuffs.util.handlers.RegistryHandler;
 import com.varitekcibus.amazingfoodstuffs.Reference;
 import com.varitekcibus.amazingfoodstuffs.creativetab.CreativeTab;
+import com.varitekcibus.amazingfoodstuffs.init.CookedRecipes;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
@@ -13,7 +15,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION, acceptedMinecraftVersions = Reference.ACCEPTED_VERSIONS)
+@Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION, acceptedMinecraftVersions = Reference.ACCEPTED_VERSIONS)
 public class AmazingFoodStuffs {
 
 	@Instance
@@ -26,21 +28,31 @@ public class AmazingFoodStuffs {
 	public static CommonProxy proxy;
 	
 	@EventHandler
-	public static void preInit(FMLPreInitializationEvent event) {
+	public static void preInit(FMLPreInitializationEvent event) 
+	
+	{
+		
+		RegistryHandler.otherRegistries();
 		
 		System.out.println("Pre Initialization");
 		
 	}
 
 	@EventHandler
-	public static void init(FMLInitializationEvent event) {
+	public static void init(FMLInitializationEvent event) 
+	
+	{
+		
+		CookedRecipes.init();
 		
 		System.out.println("Initialization");
 		
 	}
 	
 	@EventHandler
-	public static void postInit(FMLPostInitializationEvent event) {
+	public static void postInit(FMLPostInitializationEvent event) 
+	
+	{
 		
 		System.out.println("Post Initialization");
 		

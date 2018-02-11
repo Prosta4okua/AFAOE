@@ -25,7 +25,7 @@ public class CreativeTab extends CreativeTabs
 	
 	{
 		
-		return new ItemStack(ItemInit.CHEDDAR);
+		return new ItemStack(ItemInit.HARDENED_IRON);
 		
 	}
 	

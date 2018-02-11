@@ -3,7 +3,8 @@ package com.varitekcibus.amazingfoodstuffs.objects.blocks;
 import com.varitekcibus.amazingfoodstuffs.AmazingFoodStuffs;
 import com.varitekcibus.amazingfoodstuffs.init.BlockInit;
 import com.varitekcibus.amazingfoodstuffs.init.ItemInit;
-import com.varitekcibus.amazingfoodstuffs.util.IHasModel;
+import com.varitekcibus.amazingfoodstuffs.util.interfaces.IHasModel;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
@@ -14,7 +15,7 @@ public class BlockBase extends Block implements IHasModel
 
 {
 	
-	public BlockBase(String name, Material material)
+	public BlockBase(String name, Material material, float hardness, float resistance)
 	
 	{
 		
@@ -22,6 +23,9 @@ public class BlockBase extends Block implements IHasModel
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(AmazingFoodStuffs.afaoe);
+		setHardness(hardness);
+		setResistance(resistance);
+		
 		
 		
 		BlockInit.BLOCKS.add(this);

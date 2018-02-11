@@ -1,21 +1,22 @@
-package com.varitekcibus.amazingfoodstuffs.objects.items;
+package com.varitekcibus.amazingfoodstuffs.objects.food;
 
 import com.varitekcibus.amazingfoodstuffs.AmazingFoodStuffs;
 import com.varitekcibus.amazingfoodstuffs.init.ItemInit;
 import com.varitekcibus.amazingfoodstuffs.util.interfaces.IHasModel;
 
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
+import net.minecraft.item.ItemFood;
 
-public class ItemBase extends Item implements IHasModel
+public class ItemFoodBase extends ItemFood implements IHasModel
 
 {
+
 	
 	
-	public ItemBase(String name) 
+
+	public ItemFoodBase(String name, int amount, float saturation, boolean isWolfFood) 
 	
 	{
-		
+		super(amount, saturation, isWolfFood);
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(AmazingFoodStuffs.afaoe);
@@ -34,6 +35,8 @@ public class ItemBase extends Item implements IHasModel
 	}
 	
 
+	
+	
 	
 	
 }
