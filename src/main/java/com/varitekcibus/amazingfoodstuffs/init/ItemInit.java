@@ -3,8 +3,10 @@ package com.varitekcibus.amazingfoodstuffs.init;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.varitekcibus.amazingfoodstuffs.Reference;
 import com.varitekcibus.amazingfoodstuffs.objects.food.ItemFoodBase;
 import com.varitekcibus.amazingfoodstuffs.objects.items.ItemBase;
+import com.varitekcibus.amazingfoodstuffs.objects.items.ItemMobPlacers;
 import com.varitekcibus.amazingfoodstuffs.objects.tools.ToolBase;
 
 import net.minecraft.item.Item;
@@ -155,6 +157,13 @@ public class ItemInit {
 	public static final Item DOUGH = new ItemBase("dough");
 	public static final Item SALT = new ItemBase("salt");
 	public static final Item UNCOOKED_CRUST = new ItemBase("uncooked_crust");
+	public static final Item CONDENSED_BEEF = new ItemBase("condensed_beef");
+	public static final Item DOUBLE_CONDENSED_BEEF = new ItemBase("double_condensed_beef");
+	public static final Item TRIPLE_CONDENSED_BEEF = new ItemBase("triple_condensed_beef");
+	public static final Item CONDENSED_CHICKEN = new ItemBase("condensed_chicken");
+	public static final Item DOUBLE_CONDENSED_CHICKEN = new ItemBase("double_condensed_chicken");
+	public static final Item TRIPLE_CONDENSED_CHICKEN = new ItemBase("triple_condensed_chicken");
+	
 	
 	//Items
 	public static final Item HARDENED_IRON = new ItemBase("hardened_iron");
@@ -169,5 +178,8 @@ public class ItemInit {
 	public static final Item HEATED_PAN = new ToolBase("heated_pan");
 	public static final Item TENDERIZER = new ToolBase("tenderizer");
 	public static final Item PIZZA_ROLLER = new ToolBase("pizza_roller");
+	
+	//Eggs
+	public static final Item FAME_MINION_EGG = new ItemMobPlacers("fame_minion_egg", Reference.ENTITY_FAME_MINION);
 
 }
