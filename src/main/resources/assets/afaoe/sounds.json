@@ -1,0 +1,25 @@
+{
+       "entity.fameminion.ambient":
+       
+       {
+            "catergory": "entity",
+            "subtitle": "entity.fameminion.ambient",
+            "sounds": [{ "name": "afaoe:entity/fameminion/ambient", "stream": true}]
+       },
+       
+        "entity.fameminion.hurt":
+       
+       {
+            "catergory": "entity",
+            "subtitle": "entity.fameminion.hurt",
+            "sounds": [{ "name": "afaoe:entity/fameminion/hurt", "stream": true}]
+       },
+       
+        "entity.fameminion.death":
+       
+       {
+            "catergory": "entity",
+            "subtitle": "entity.fameminion.death",
+            "sounds": [{ "name": "afaoe:entity/fameminion/death", "stream": true}]
+       }
+}
