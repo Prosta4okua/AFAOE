@@ -2,6 +2,9 @@ itemGroup.afaoe=AFAOE
 
 
 ###
+#entities
+entity.fameminion.name=Fame Minion
+item.fame_minion_egg.name=Fame Minion Egg
 
 #items
 
@@ -152,6 +155,12 @@ item.vegetable_soup.name=Vegetable Soup
 
 #materials
 item.hardened_iron.name=Hardened Iron Ingot
+item.condensed_beef.name=Condensed Beef
+item.double_condensed_beef.name=Double Condensed Beef
+item.triple_condensed_beef.name=Triple Condensed Beef
+item.condensed_chicken.name=Condensed Chicken
+item.double_condensed_chicken.name=Double Condensed Chicken
+item.triple_condensed_chicken.name=Triple Condensed Chicken
 
 
 
