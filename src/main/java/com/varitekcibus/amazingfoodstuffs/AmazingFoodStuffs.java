@@ -2,6 +2,7 @@ package com.varitekcibus.amazingfoodstuffs;
 
 import com.varitekcibus.amazingfoodstuffs.proxy.CommonProxy;
 import com.varitekcibus.amazingfoodstuffs.util.handlers.RegistryHandler;
+import com.varitekcibus.amazingfoodstuffs.util.handlers.SoundsHandler;
 import com.varitekcibus.amazingfoodstuffs.Reference;
 import com.varitekcibus.amazingfoodstuffs.creativetab.CreativeTab;
 import com.varitekcibus.amazingfoodstuffs.init.CookedRecipes;
@@ -44,6 +45,8 @@ public class AmazingFoodStuffs {
 	{
 		
 		CookedRecipes.init();
+		
+		RegistryHandler.initRegistries();
 		
 		System.out.println("Initialization");
 		

@@ -9,4 +9,6 @@ public class Reference {
 	
 	public static final String CLIENT_PROXY_CLASS = "com.varitekcibus.amazingfoodstuffs.proxy.ClientProxy";
 	public static final String SERVER_PROXY_CLASS = "com.varitekcibus.amazingfoodstuffs.proxy.ServerProxy";
+	
+	public static final int ENTITY_FAME_MINION = 150;
 }
